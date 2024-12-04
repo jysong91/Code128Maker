@@ -74,6 +74,10 @@ public struct Code128Barcode: View {
         return adjustedWidth
     }
     
+    public init(barcodeNumber: String) {
+        self.barcodeNumber = barcodeNumber
+    }
+    
     public var body: some View {
         GeometryReader { geometry in
             if barcodeNumber != "" {
