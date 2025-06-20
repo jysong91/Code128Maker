@@ -35,4 +35,3 @@ Author
 ------
 Jin Young Song  
 GitHub: https://github.com/jysong91  
-Email: sjysong91@gmail.com
