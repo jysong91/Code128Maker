@@ -20,12 +20,14 @@ Or add it as a Swift Package:
 2. Use the repository URL: https://github.com/jysong91/Code128Maker.git
 3. Import and use:
 
-    import Code128Barcode
+```swift
+import Code128Barcode
 
-    var body: some View {
-        Code128Barcode(barcodeNumber: "HELLO2025")
-            .frame(height: 100)
-    }
+var body: some View {
+    Code128Barcode(barcodeNumber: "HELLO2025")
+        .frame(height: 100)
+}
+```
 
 License
 -------
